@@ -1,0 +1,6 @@
+module Pods_BTaskeeInterview {
+  umbrella header "Pods-BTaskeeInterview-umbrella.h"
+
+  export *
+  module * { export * }
+}

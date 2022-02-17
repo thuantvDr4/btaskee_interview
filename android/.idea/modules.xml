@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sach123.iml" filepath="$PROJECT_DIR$/.idea/modules/sach123.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sach123.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sach123.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1309090080/sach123.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/-1309090080/sach123.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335937246/sach123.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-335937246/sach123.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1165648249/sach123.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1165648249/sach123.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/480351441/sach123.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/480351441/sach123.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1314053550/sach123.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1314053550/sach123.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362440537/sach123.react-native-track-player.iml" filepath="$PROJECT_DIR$/.idea/modules/1362440537/sach123.react-native-track-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-765369146/sach123.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-765369146/sach123.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

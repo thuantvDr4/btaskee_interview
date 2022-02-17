@@ -1,0 +1,14 @@
+com/btaskeeinterview/BuildConfig.java
+ com.btaskeeinterview.BuildConfig
+com/btaskeeinterview/MainApplication.java
+ com.btaskeeinterview.MainApplication
+ com.btaskeeinterview.MainApplication$1
+com/btaskeeinterview/MainActivity.java
+ com.btaskeeinterview.MainActivity
+com/btaskeeinterview/ReactNativeFlipper.java
+ com.btaskeeinterview.ReactNativeFlipper
+ com.btaskeeinterview.ReactNativeFlipper$1
+ com.btaskeeinterview.ReactNativeFlipper$2
+ com.btaskeeinterview.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,96 @@
+[
+  {
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://wallpapercave.com/wp/wp4897957.jpg"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 1,
+    "postType": "image",
+    "postUrl":"https://wallpapercave.com/wp/wp5678551.jpg"
+  },
+  {
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://wallpapercave.com/wp/wp5872430.jpg"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 2,
+    "postType": "image",
+    "postUrl":"https://wallpapercave.com/wp/wp5678551.jpg"
+  },
+  {
+
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://i1.wp.com/www.hindishayaricollections.com/wp-content/uploads/2020/03/beautifull-girls-images-download-31.jpeg?resize=770%2C917&ssl=1"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 3,
+    "postType": "image",
+    "postUrl":"https://wallpapercave.com/wp/wp5678551.jpg"
+  },
+  {
+
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://i.pinimg.com/474x/20/96/5e/20965ef63960f59f9013123aad94bb59.jpg"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 4,
+    "postType": "image",
+    "postUrl":"https://wallpapercave.com/wp/wp5678551.jpg"
+  },
+  {
+
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://i.pinimg.com/474x/20/96/5e/20965ef63960f59f9013123aad94bb59.jpg"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 5,
+    "postType": "video",
+    "postUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+
+    "user": {
+      "id": "u1",
+      "username": "mrTi",
+      "imageUri": "https://i.pinimg.com/736x/76/49/a5/7649a5ad7374ca8fe01af9419f6cc641.jpg"
+    },
+    "description": "hahaha oh boy @borat",
+    "songName": "NF -The search",
+    "likes": 123,
+    "comments": 222,
+    "shares": 30,
+    "id": 6,
+    "postType": "image",
+    "postUrl":"https://wallpapercave.com/wp/wp5678551.jpg"
+  }
+]

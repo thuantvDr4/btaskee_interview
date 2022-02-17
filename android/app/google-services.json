@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "504693176138",
+    "project_id": "btaskeeinterv",
+    "storage_bucket": "btaskeeinterv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504693176138:android:be1f5181c5fdae3859f3b3",
+        "android_client_info": {
+          "package_name": "com.btaskeeinterview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504693176138-krif86bav3nd88a7js8b88rirorc9s6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.btaskeeinterview",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "504693176138-47g755ie47t0q370ll70fdp2rhlgjj91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALtzt8SPxdKqoYG40Xwo72czp6XH9Cmqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504693176138-47g755ie47t0q370ll70fdp2rhlgjj91.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "504693176138-a9hatbrk45tdbod34k6fj5k3074k0pc3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.btaskeeinterview"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Video 1",
+    "artist": "Powfu",
+    "artwork":"https://wallpapercave.com/wp/wp4958689.jpg",
+    "id": 1,
+    "videoId": "Z3bldUepP-s"
+  },
+  {
+    "title": "Video 2",
+    "artist": "Imagine Dragons",
+    "artwork":
+    "https://wallpapers.com/images/high/finches-tag-wallpaper-finch-finches-bird-desktop-background-gexou6yuac2g8fbu.jpg",
+    "id": 2,
+    "videoId": "_i0yzHdBBqw"
+  },
+  {
+    "title": "faded",
+    "artist": "Alan Walker",
+    "artwork":
+    "https://i.ytimg.com/vi/9i3YECaI-M8/maxresdefault.jpg",
+    "id": 3,
+    "videoId": "vDHXRO73d7k"
+  },
+  {
+    "title": "hate me",
+    "artist": "Ellie Goulding",
+    "artwork": "https://c4.wallpaperflare.com/wallpaper/853/651/635/bird-spring-birds-cute-wallpaper-preview.jpg",
+    "id": 4,
+    "videoId": "Yf52XK99eWM"
+  },
+  {
+    "title": "Solo",
+    "artist": "Clean Bandit",
+    "artwork":
+    "https://wallpaperaccess.com/full/4416657.jpg",
+    "id": 5,
+    "videoId": "FWmPwsPomc8"
+  },
+  {
+    "title": "without me",
+    "artist": "Halsey",
+    "artwork": "https://wallpaperaccess.com/full/486171.jpg",
+    "id": 6,
+    "videoId": "GSy5AhYZTZU"
+  }
+]

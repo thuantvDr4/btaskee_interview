@@ -1,0 +1,577 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.btaskeeinterview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:7:5-77
+11-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:7:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:8:5-80
+15-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+17-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:10:5-88
+17-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:10:22-85
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/vinhthuan/.gradle/caches/transforms-3/85722bbced5f75f7128f01e28eb86f9e/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/vinhthuan/.gradle/caches/transforms-3/85722bbced5f75f7128f01e28eb86f9e/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-community_netinfo] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+19-->[:react-native-community_netinfo] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:react-native-firebase_auth] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+20-->[:react-native-firebase_auth] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->[:react-native-maps] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+21-->[:react-native-maps] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required to access Google Play Licensing -->
+22-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+22-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+23    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+23-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+23-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/2c1e4c8b84a4f8fbb08a95b4e24f06f6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/2c1e4c8b84a4f8fbb08a95b4e24f06f6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/2c1e4c8b84a4f8fbb08a95b4e24f06f6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:12:5-42:19
+30        android:name="com.btaskeeinterview.MainApplication"
+30-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:13:7-38
+31        android:allowBackup="false"
+31-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:17:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/9eba7cef7293f195e486b5c1bb290770/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:15:7-41
+35        android:label="@string/app_name"
+35-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:14:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:16:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:19:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:18:9-44
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/debug/AndroidManifest.xml:11:9-86
+39-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/debug/AndroidManifest.xml:11:19-83
+40        <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+41        <meta-data
+41-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:22:9-24:74
+42            android:name="com.google.android.geo.API_KEY"
+42-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:23:17-62
+43            android:value="AIzaSyCUnmp-9f8TTVALzXWGu3dELaNm8Gnzd3s" />
+43-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:24:17-72
+44
+45        <activity
+45-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:26:7-37:18
+46            android:name="com.btaskeeinterview.MainActivity"
+46-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:27:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+47-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:29:9-86
+48            android:label="@string/app_name"
+48-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:28:9-41
+49            android:launchMode="singleTask"
+49-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:30:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:31:9-51
+51            <intent-filter>
+51-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:32:9-36:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:33:13-65
+52-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:33:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:34:13-73
+54-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:34:23-70
+55
+56                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+56-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:35:13-77
+56-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:35:21-75
+57            </intent-filter>
+58        </activity> <!-- You will also only need to add this uses-library tag -->
+59        <uses-library
+59-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:40:9-87
+60            android:name="org.apache.http.legacy"
+60-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:40:23-60
+61            android:required="false" />
+61-->/Users/vinhthuan/MyData/BtaskeeInterview/android/app/src/main/AndroidManifest.xml:40:61-85
+62
+63        <meta-data
+63-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+64            android:name="app_data_collection_default_enabled"
+64-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+65            android:value="true" />
+65-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+66
+67        <service
+67-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+71            <meta-data
+71-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+72                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+72-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+75                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+77        </service>
+78
+79        <provider
+79-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+80            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+80-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+81            android:authorities="com.btaskeeinterview.reactnativefirebaseappinitprovider"
+81-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+82            android:exported="false"
+82-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+83            android:initOrder="99" /> <!-- The main service, handles playback, playlists and media buttons -->
+83-->[:react-native-firebase_app] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+84        <service
+84-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:19
+85            android:name="com.guichaguri.trackplayer.service.MusicService"
+85-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-75
+86            android:enabled="true"
+86-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
+87            android:exported="true" >
+87-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-36
+88            <intent-filter>
+88-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+89                <action android:name="android.intent.action.MEDIA_BUTTON" />
+89-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+89-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+90            </intent-filter>
+91        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+92        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+92-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:20
+92-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:19-76
+93            <intent-filter>
+93-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+94                <action android:name="android.intent.action.MEDIA_BUTTON" />
+94-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+94-->[:react-native-track-player] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+95            </intent-filter>
+96        </receiver>
+97
+98        <provider
+98-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+99            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+99-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+100            android:authorities="com.btaskeeinterview.fileprovider"
+100-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+101            android:exported="false"
+101-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+102            android:grantUriPermissions="true" >
+102-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+103            <meta-data
+103-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+105                android:resource="@xml/file_provider_paths" />
+105-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+106        </provider>
+107        <provider
+107-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+108            android:name="com.RNFetchBlob.Utils.FileProvider"
+108-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+109            android:authorities="com.btaskeeinterview.provider"
+109-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+110            android:exported="false"
+110-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+111            android:grantUriPermissions="true" >
+111-->[:rn-fetch-blob] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+112            <meta-data
+112-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+114                android:resource="@xml/provider_paths" />
+114-->[:react-native-webview] /Users/vinhthuan/MyData/BtaskeeInterview/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+115        </provider>
+116
+117        <activity
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+118            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+132                    android:scheme="genericidp" />
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+136            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+136-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+146
+147                <data
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+150                    android:scheme="recaptcha" />
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+151            </intent-filter>
+152        </activity>
+153
+154        <service
+154-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+155            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+156            android:enabled="true"
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+159                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f2d26ed5eedabf975116ce7f41ef076b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+162            </intent-filter>
+163        </service>
+164
+165        <provider
+165-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+166            android:name="androidx.work.impl.WorkManagerInitializer"
+166-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+167            android:authorities="com.btaskeeinterview.workmanager-init"
+167-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+169            android:exported="false"
+169-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+170            android:multiprocess="true" />
+170-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+171
+172        <service
+172-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+173            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+173-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+174            android:directBootAware="false"
+174-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+175            android:enabled="@bool/enable_system_alarm_service_default"
+175-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+176            android:exported="false" />
+176-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+177        <service
+177-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+178            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+178-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+180            android:enabled="@bool/enable_system_job_service_default"
+180-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+181            android:exported="true"
+181-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+183        <service
+183-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+184            android:name="androidx.work.impl.foreground.SystemForegroundService"
+184-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+186            android:enabled="@bool/enable_system_foreground_service_default"
+186-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+187            android:exported="false" />
+187-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+188
+189        <receiver
+189-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+190            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+190-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+192            android:enabled="true"
+192-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+193            android:exported="false" />
+193-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+194        <receiver
+194-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+195-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+197            android:enabled="false"
+197-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+200                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+200-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+200-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+201                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+201-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+201-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+205            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+205-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+210                <action android:name="android.intent.action.BATTERY_OKAY" />
+210-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+210-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+211                <action android:name="android.intent.action.BATTERY_LOW" />
+211-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+211-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+212            </intent-filter>
+213        </receiver>
+214        <receiver
+214-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+215-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+217            android:enabled="false"
+217-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+219            <intent-filter>
+219-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+220                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+220-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+220-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+221                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+221-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+221-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+222            </intent-filter>
+223        </receiver>
+224        <receiver
+224-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+225            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+225-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+227            android:enabled="false"
+227-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+228            android:exported="false" >
+228-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+229            <intent-filter>
+229-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+230                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+230-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+230-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+231            </intent-filter>
+232        </receiver>
+233        <receiver
+233-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+234            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+234-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+235            android:directBootAware="false"
+235-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+236            android:enabled="false"
+236-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+237            android:exported="false" >
+237-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+238            <intent-filter>
+238-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+239                <action android:name="android.intent.action.BOOT_COMPLETED" />
+239-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+239-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+240                <action android:name="android.intent.action.TIME_SET" />
+240-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+240-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+241                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+241-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+241-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+242            </intent-filter>
+243        </receiver>
+244        <receiver
+244-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+245            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+245-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+247            android:enabled="@bool/enable_system_alarm_service_default"
+247-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+248            android:exported="false" >
+248-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+250                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+250-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+250-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+251            </intent-filter>
+252        </receiver>
+253        <receiver
+253-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+254            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+254-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+255            android:directBootAware="false"
+255-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+256            android:enabled="true"
+256-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+257            android:exported="true"
+257-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+258            android:permission="android.permission.DUMP" >
+258-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+259            <intent-filter>
+259-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+260                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+260-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+260-->[androidx.work:work-runtime:2.5.0] /Users/vinhthuan/.gradle/caches/transforms-3/e26e9a33abdde7b9c9aa6126a4f76497/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+261            </intent-filter>
+262        </receiver>
+263
+264        <service
+264-->[androidx.room:room-runtime:2.2.5] /Users/vinhthuan/.gradle/caches/transforms-3/2ffa626970094e00db9cbebb21b34fcd/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+265            android:name="androidx.room.MultiInstanceInvalidationService"
+265-->[androidx.room:room-runtime:2.2.5] /Users/vinhthuan/.gradle/caches/transforms-3/2ffa626970094e00db9cbebb21b34fcd/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+266            android:directBootAware="true"
+266-->[androidx.room:room-runtime:2.2.5] /Users/vinhthuan/.gradle/caches/transforms-3/2ffa626970094e00db9cbebb21b34fcd/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+267            android:exported="false" />
+267-->[androidx.room:room-runtime:2.2.5] /Users/vinhthuan/.gradle/caches/transforms-3/2ffa626970094e00db9cbebb21b34fcd/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+268
+269        <meta-data
+269-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/vinhthuan/.gradle/caches/transforms-3/37c0cada90f7270ece40784fcc5e19e2/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+270            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+270-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/vinhthuan/.gradle/caches/transforms-3/37c0cada90f7270ece40784fcc5e19e2/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+271            android:value="GlideModule" />
+271-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/vinhthuan/.gradle/caches/transforms-3/37c0cada90f7270ece40784fcc5e19e2/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+272
+273        <activity
+273-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+274            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+274-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+275            android:excludeFromRecents="true"
+275-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+276            android:exported="false"
+276-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+277            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+277-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+278        <!--
+279            Service handling Google Sign-In user revocation. For apps that do not integrate with
+280            Google Sign-In, this service will never be started.
+281        -->
+282        <service
+282-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+283            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+283-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+284            android:exported="true"
+284-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+285            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+285-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+286            android:visibleToInstantApps="true" />
+286-->[com.google.android.gms:play-services-auth:20.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+287
+288        <activity
+288-->[com.google.android.gms:play-services-base:18.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+289            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+289-->[com.google.android.gms:play-services-base:18.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+290            android:exported="false"
+290-->[com.google.android.gms:play-services-base:18.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+291            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+291-->[com.google.android.gms:play-services-base:18.0.1] /Users/vinhthuan/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+292
+293        <provider
+293-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+294            android:name="com.google.firebase.provider.FirebaseInitProvider"
+294-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+295            android:authorities="com.btaskeeinterview.firebaseinitprovider"
+295-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+296            android:directBootAware="true"
+296-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+297            android:exported="false"
+297-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+298            android:initOrder="100" />
+298-->[com.google.firebase:firebase-common:20.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+299
+300        <meta-data
+300-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+301            android:name="com.google.android.gms.version"
+301-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+302            android:value="@integer/google_play_services_version" />
+302-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vinhthuan/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+303    </application>
+304
+305</manifest>
